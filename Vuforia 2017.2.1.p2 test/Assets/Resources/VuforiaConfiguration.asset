@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2067402452, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: VuforiaConfiguration
+  m_EditorClassIdentifier: 
+  vuforia:
+    vuforiaLicenseKey: AfQJf4v/////AAABGdIeJwSppUIxgZ1qM3v9p/Jn9zpACjpNyzzIM723uuwfBHNE77XU78g7KI51CQdaDh9tB6CJhiG+v+RUb+YeoOB7YKx4XIhlqj79FLS2IJlfFS/VJkRaB7lSYl89NtjfOEeBxZl7O4q3FU2aFCEBRfPNgi8Soip9YXH8wprvg8Y9DAoc3H4VBPD1UeawQyqMFdeFF/YSERbACyJDv4nuNB7faaHvu1PM8/nea2ynL1bdu8wDMsuJb5omsvHRruw3t84uZ+9qNsJ0Rxz8/T19rMyIAnGAf8tMvwmCX0OnLMlT+6vrUEkVlScmDWXCGkyxoxImpZnwHdid9KL4VHk2rkBwN5XvABxOAfQl74tDuikk
+    ufoLicenseKey: QWJIUm8wRC8vLy8vQUFBQUtBa0s5ejcrU0VDSGl4dHhtMjRoSkZJMXpBdTg0RXpvS3NKZUU3b0lVdzRWU01ZRStpRXVoNEE2NnBnbjg1SXgrWVFSMGo4K1U0dWRReFJJUzN3bm1uS3U4ZGhqbjNLNExUUWJEL01VRktKTEZSMmszZ3NqdlBkZStmOGlJa2xqZDhYTjdWY3NLUXgxMEpGUFVIWjNBWWsvSVpqTjhudnRMdEthR2RUaGMzN3RMQ2lwZWxXLzA2V1hVR2Zidm1DUWhvcFVvUzY4eFh3UWRKOWFpS2M3dXNSTmJDSjA1QlkyZzFzeUMwdUR4Z3V5enlmbjAwczhUSlpXemlERTEvSUZQRElvRjg1Qmp1cXRVcy95NGlMM3krVVQvMlY4eXM3RkJ1WkVZejBVYmNka1Bpc0ErVW5sTm1QdmFwUzZ5alpkQTlLQ2RLK280blJFWkdaM1VRR0lBT0s0MFZqUkxyNERmVURDemI2emFRc3A=
+    delayedInitialization: 0
+    cameraDeviceModeSetting: -1
+    maxSimultaneousImageTargets: 2
+    maxSimultaneousObjectTargets: 2
+    useDelayedLoadingObjectTargets: 0
+    cameraDirection: 0
+    mirrorVideoBackground: 0
+  digitalEyewear:
+    cameraOffset: 0.06
+    distortionRenderingLayer: 31
+    eyewearType: 1
+    stereoFramework: 0
+    seeThroughConfiguration: 1
+    viewerName: 
+    viewerManufacturer: 
+    useCustomViewer: 0
+    customViewer:
+      Version: 0
+      Name: 
+      Manufacturer: 
+      ButtonType: 0
+      ScreenToLensDistance: 0
+      InterLensDistance: 0
+      TrayAlignment: 0
+      LensCenterToTrayDistance: 0
+      DistortionCoefficients: {x: 0, y: 0}
+      FieldOfView: {x: 0, y: 0, z: 0, w: 0}
+      ContainsMagnet: 0
+  databaseLoad:
+    dataSetsToLoad:
+    - zekken_data
+    dataSetsToActivate:
+    - zekken_data
+  videoBackground:
+    clippingMode: 0
+    numDivisions: 2
+    videoBackgroundShader: {fileID: 15311, guid: 0000000000000000f000000000000000,
+      type: 0}
+    matteShader: {fileID: 15310, guid: 0000000000000000f000000000000000, type: 0}
+    videoBackgroundEnabled: 1
+  smartTerrainTracker:
+    autoInitTracker: 0
+    autoStartTracker: 0
+    autoInitBuilder: 0
+    sceneUnitsToMillimeter: 0
+  deviceTracker:
+    autoInitTracker: 0
+    autoStartTracker: 0
+    trackingMode: 0
+    posePrediction: 0
+    modelCorrectionMode: 0
+    modelTransformEnabled: 0
+    modelTransform: {x: 0, y: 0.1, z: -0.1}
+  webcam:
+    deviceNameSetInEditor: Logicool HD Webcam C525
+    flipHorizontally: 0
+    turnOffWebCam: 0
+    renderTextureLayer: 30

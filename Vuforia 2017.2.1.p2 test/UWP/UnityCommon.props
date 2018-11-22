@@ -1,0 +1,9 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <UnityWSASolutionName>vuforia2</UnityWSASolutionName>
+        <UnityWSASolutionDir>C:\Users\安原 新\Documents\Vuforia 2017.2.1.p2 test\UWP\</UnityWSASolutionDir>
+        <UnityProjectDir>C:\Users\安原 新\Documents\Vuforia 2017.2.1.p2 test\</UnityProjectDir>
+        <UnityWSAPlayerDir>C:\Program Files\Unity2017.2.1\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
+        <UnityWSAToolsDir>$(UnityWSASolutionDir)Unity\Tools\</UnityWSAToolsDir>
+    </PropertyGroup>
+</Project>
