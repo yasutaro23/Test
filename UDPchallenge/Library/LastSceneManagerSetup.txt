@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/scene/UDP.unity
+  isLoaded: 1
+  isActive: 1
